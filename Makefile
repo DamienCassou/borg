@@ -2,10 +2,17 @@
 
 PKG = borg
 
+# FIXME Don't force borg-elpa's dependencies on all Borg users.
+
 ELS   = $(PKG).el
+ELS   = $(PKG)-elpa.el
 ELCS  = $(ELS:.el=.elc)
 
-DEPS  =
+DEPS  = closql
+DEPS += dash
+DEPS += epkg
+DEPS += emacsql
+DEPS += finalize
 
 EMACS      ?= emacs
 EMACS_ARGS ?=

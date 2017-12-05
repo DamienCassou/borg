@@ -6,6 +6,9 @@
 ;; Homepage: https://github.com/emacscollective/borg
 ;; Keywords: tools
 
+;; Package-Version: 2.0
+;; Package-Requires: ((emacs "26.0"))
+
 ;; This file contains code from GNU Emacs, which is
 ;; Copyright (C) 1976-2016 Free Software Foundation, Inc.
 
